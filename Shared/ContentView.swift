@@ -16,7 +16,7 @@ struct ContentView: View {
                 Spacer()
                 SocialView(size: size)
                 Divider()
-                SimpleText(text: "Parce que la sauvegarde des océans est essentielle à la diversité de notre planète, protégeons la.", color: Color.black, font: Font.title3)
+                SimpleText(text: "Parce que la sauvegarde des océans est essentielle à la diversité de notre planète, protégeons la !", color: Color.black, font: Font.title3)
                 BottomLabel(string: "Soyez informé")
             }
             .edgesIgnoringSafeArea(.bottom)
